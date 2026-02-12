@@ -41,13 +41,13 @@ Create a class file named `GameMaster.java`. This class should not be instantiat
 
 ### Part B: Verification
 
-Create a separate class with a `main` method with the following signature,
+Add a `main` method in the `GameMaster` class with the following signature,
 
 ```
 public static void main(String[] args)
 ```
 
-to simulate a game session. You must:
+and simulate a game session implementing the following in main:
 
 1. Add 500 XP via a quest experience.
 2. Apply a Potion of 100 XP.
