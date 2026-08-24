@@ -69,4 +69,17 @@ To ensure your logic is "Production Ready," you are provided with a JUnit test s
 
 ## 5. Submission Instructions
 
-Submit the `GameMaster.java` file with the completed class, including the implemented `main` method by clicking on the **Skill Builder 2** CodeGrade link in Blackboard.
+**The pull request is the submission.** Nothing gets uploaded anywhere.
+
+```
+git switch -c assignment      # work on a branch, never on main
+git add -A && git commit -m "..."   # small commits, real messages, as you go
+git push -u origin assignment
+```
+
+Then open a pull request into `main` on GitHub. CI runs on it and shows a green check or
+a red X. If you need to fix something, push to the same branch and the pull request
+updates itself.
+
+Your commit history is part of what is graded — incremental work with real messages, not
+one dump at the deadline.
